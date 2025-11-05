@@ -256,6 +256,7 @@ keylogger-scanner/
 ├── .gitignore # Git exclusions
 ├── SECURITY_REPORT_TEMPLATE.md # Report template
 ├── LICENSE # MIT License
+
 └── PROJECT_REPORT.pdf # Detailed project report
 
 
