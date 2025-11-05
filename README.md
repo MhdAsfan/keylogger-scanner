@@ -59,8 +59,11 @@ This tool may **NOT** be used for:
 
 **Example Output:**
 [+] Port 22 is OPEN
+
 [+] Port 80 is OPEN
+
 [+] Port 443 is OPEN
+
 [+] Port 3306 is OPEN
 
 
@@ -73,6 +76,7 @@ This tool may **NOT** be used for:
 
 **Example Output:**
 [+] Port 22 Banner: OpenSSH_7.4 (protocol 2.0)
+
 [+] Port 80 Banner: Apache/2.4.6 (CentOS)
 [+] Port 3306 Banner: MySQL 5.7.32
 
@@ -250,11 +254,17 @@ Before scanning, confirm:
 ## 📁 Project Structure
 keylogger-scanner/
 ├── security_scanner.py # Main scanning engine
+
 ├── keylogger.py # Educational keylogger
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # This file
+
 ├── .gitignore # Git exclusions
+
 ├── SECURITY_REPORT_TEMPLATE.md # Report template
+
 ├── LICENSE # MIT License
 
 └── PROJECT_REPORT.pdf # Detailed project report
